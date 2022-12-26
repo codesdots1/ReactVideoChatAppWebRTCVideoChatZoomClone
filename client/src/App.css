@@ -1,0 +1,34 @@
+.homepage-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+}
+
+.homepage-container .input-container input{
+  font-size: 24;
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid skyblue;
+  border-radius: 15px;
+}
+
+.homepage-container .homepage-tile{
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.homepage-container .input-container button{
+  display: block;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid skyblue;
+  border-radius: 15px;
+}
